@@ -1,0 +1,1 @@
+/home/cristian/Escritorio/codigos/Pila/build/CMakeFiles/Pila.dir

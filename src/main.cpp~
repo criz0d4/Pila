@@ -1,0 +1,27 @@
+/**
+	Nombres(s): Juan Manuel Vázquez Jiménez
+*/
+#include "Pila.h"
+
+int main()
+{
+	Pila p = Pila();
+	std::cout<< " "<< std::endl;	
+	p.Push(6);
+	p.Push(4);
+	p.Push(4);
+	p.Push(5);
+	p.Push(3);
+	p.Show();
+	std::cout<< " "<< std::endl;
+	p.VaciarPila();
+	p.Push(3);
+	p.Push(2);
+	p.Push(1);
+	p.Show();
+	std::cout<< " "<< std::endl;
+	p.Pop();
+	p.Show();
+	
+	return 0;
+}
